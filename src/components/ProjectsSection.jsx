@@ -3,32 +3,64 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "WanderLust",
+    description:
+      "Full stack travel application. Users can manage detailed travel listings, including titles, descriptions, locations, and pricing. ",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "Cloudinary",
+      "Passport.js",
+      "Maptiler",
+    ],
+    demoUrl: "https://sigma-project1.onrender.com/listings",
+    githubUrl: "https://github.com/Shivamahajan045/sigma-project",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Expense Tracker",
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: [
+      "Node.js",
+      "Express",
+      "Sequelize",
+      "WebSockets",
+      "MySQL",
+      "JWT",
+      " Cashfree",
+      "AWS",
+      "PM2",
+      "Nginx",
+      "CI-CD",
+    ],
+    demoUrl: "https://github.com/Shivamahajan045/Expense_Tracker-3.0",
+    githubUrl: "https://github.com/Shivamahajan045/Expense_Tracker-3.0",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Group Chat App",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Full-featured realtime group chat application where users can interact with each other.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: [
+      "Node.js",
+      "Express",
+      "Sequelize",
+      "MySQL",
+      "JWT",
+      " Cashfree",
+      "AWS",
+      "PM2",
+      "Nginx",
+      "CI-CD",
+    ],
+    demoUrl: "https://github.com/Shivamahajan045/GroupChatApp",
+    githubUrl: "https://github.com/Shivamahajan045/GroupChatApp",
   },
 ];
 
@@ -62,8 +94,11 @@ export const ProjectsSection = () => {
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                  {project.tags.map((tag, index) => (
+                    <span
+                      key={index}
+                      className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                    >
                       {tag}
                     </span>
                   ))}
@@ -100,7 +135,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Shivamahajan045"
           >
             Check My Github <ArrowRight size={16} />
           </a>
