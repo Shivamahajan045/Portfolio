@@ -33,7 +33,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/1_9YLJExhzqBpXplSXH4hNRdhoMo9v0Ld/view?usp=sharing"
+                href="https://drive.google.com/file/d/13yA6Ohrw_wnqNJ0i2DSB_ickCbWnO8WX/view?usp=sharing"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
