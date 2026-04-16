@@ -59,8 +59,9 @@ const projects = [
       "Nginx",
       "CI-CD",
     ],
-    demoUrl: "https://github.com/Shivamahajan045/GroupChatApp",
-    githubUrl: "https://github.com/Shivamahajan045/GroupChatApp",
+    demoUrl: "https://talk-a-tive-9azh.onrender.com",
+    githubUrl:
+      "https://github.com/Shivamahajan045/Real-Time-Chat-App---MERN-Stack",
   },
 ];
 
